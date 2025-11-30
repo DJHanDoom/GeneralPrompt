@@ -1,0 +1,366 @@
+{
+  "timestamp": "2025-11-30T14:46:15.724Z",
+  "language": "en",
+  "data": {
+    "Page": [
+      "Data",
+      "DataEditor",
+      "Generator",
+      "Library",
+      "ProjectManager"
+    ],
+    "Tab": [
+      "Agent",
+      "Context",
+      "Glossary",
+      "Task",
+      "TechContext",
+      "SavedPrompts",
+      "ManageData",
+      "Settings"
+    ],
+    "Action": [
+      "Generate",
+      "Save",
+      "Load",
+      "Export",
+      "Import",
+      "Copy",
+      "Clear",
+      "ClearAll",
+      "Delete",
+      "Add",
+      "Remove",
+      "Edit",
+      "Search",
+      "Filter",
+      "Restore",
+      "Reset",
+      "Install",
+      "Paste",
+      "Insert"
+    ],
+    "Tool": [
+      "Clipboard",
+      "DropdownFilter",
+      "FileDownload",
+      "FileReader",
+      "JSONParser",
+      "LocalStorage",
+      "ModalSystem",
+      "StateManager",
+      "TagSystem",
+      "TranslationEngine"
+    ],
+    "DomainData": [
+      "Prompt",
+      "LibraryEntry",
+      "Project",
+      "AgentPersona",
+      "Context",
+      "Tag",
+      "Glossary",
+      "Task",
+      "Parameter",
+      "Slider",
+      "Configuration",
+      "State",
+      "Backup",
+      "Theme",
+      "Timestamp",
+      "Language",
+      "TargetFile",
+      "TaskType"
+    ],
+    "UIElement": [
+      "Modal",
+      "Button",
+      "Input",
+      "Textarea",
+      "Select",
+      "Slider",
+      "Toggle",
+      "Dropdown",
+      "Tag",
+      "Card",
+      "Sidebar",
+      "EditorPane",
+      "Toolbar",
+      "Grid",
+      "Section",
+      "Label",
+      "Checkbox",
+      "FileUpload",
+      "ProgressBar",
+      "Tooltip",
+      "Toast",
+      "Overlay"
+    ],
+    "VerbAction": [
+      "Generate",
+      "Render",
+      "Save",
+      "Load",
+      "Export",
+      "Import",
+      "Parse",
+      "Validate",
+      "Filter",
+      "Search",
+      "Copy",
+      "Paste",
+      "Clear",
+      "Reset",
+      "Toggle",
+      "Focus",
+      "Blur",
+      "Click",
+      "Submit",
+      "Cancel",
+      "Insert",
+      "Remove",
+      "Update",
+      "Initialize",
+      "Restore",
+      "Serialize",
+      "Deserialize"
+    ]
+  },
+  "library": [
+    {
+      "id": 1764464764313,
+      "timestamp": "29/11/2025, 22:06:04",
+      "theme": "separateLinks",
+      "content": "> ATUE COMO: UI/UX Designer\nTAREFA: FEATURE\n\nPARÂMETROS:\n- Criatividade: 50% vs Precisão: 50%\n- Conciso: 50% vs Detalhado: 50%\n- Rápido (Quick Fix): 50% vs Robusto (Best Practice): 50%\n                                                                                                                \nCONTEXTO:                                                                                                       \n- Page: Generator                                                                                               \n- Tab: TechContext                                                                                              \n                                                                                                                \nSITUAÇÃO ATUAL:                                                                                                 \nitens adicionados à lista são tratados como um unico item                                                       \n                                                                                                                \nSITUAÇÃO IDEAL / SOLUÇÃO:                                                                                       \nao inserir um item (link) e apertar \"enter\" o formulario cria um novo item (com seu propio botao \"inserir\")     \ne continua disponivel para inserir mais um link (que criará um novo item com seu proprio botao)          ",
+      "state": {
+        "selectedTags": {
+          "Page": [
+            "Início"
+          ],
+          "Tab": [],
+          "Action": [],
+          "Tool": [],
+          "DomainData": [
+            "Espécie",
+            "RegistroÁrvore"
+          ],
+          "UIElement": [
+            "Modal"
+          ],
+          "VerbAction": []
+        },
+        "persona": "Senior React Engineer",
+        "targetFile": "",
+        "taskType": "fix",
+        "currentSituation": "",
+        "idealSituation": "",
+        "filePaths": "",
+        "creativity": "50",
+        "detail": "50",
+        "robustness": "50"
+      }
+    },
+    {
+      "id": 1764464496003,
+      "timestamp": "29/11/2025, 22:01:36",
+      "theme": "promptInstall",
+      "content": "ACT AS: Senior React Engineer\nTASK: FIX\n\nPARAMETERS:\n- Creativity: 50% vs Precision: 50%\n- Concise: 50% vs Detailed: 50%\n- Quick Fix: 50% vs Robust (Best Practice): 50%\n\nCONTEXT:\n- Page: Início\n\nCURRENT SITUATION:\nprompt de instalação é muito vago e resumido\n\nIDEAL SITUATION / SOLUTION:\nelabore melhor o prompt de instalação, tornando as intruções mais claras, explicando o contexto e objetivo da tarefa, seja generoso com a IA que receberá o prompt sem ter a minima ideia do que se trata o \"gerador de prompts\" / instrua o usuario a anexar o index.html junto ao prompt caso necessario (isso pode ser util,  a depender do modelo que vai processar)\n\nATTACHMENTS / CONTEXT:\nprompt de instalação atual : ACT AS: Development Tools Expert\nTASK: Analyze my project and create a configuration JSON file for the \"Prompt Generator\".\n\nINSTRUCTIONS:\n1. Analyze my project's folder structure and files.\n2. Identify the following elements:\n    - Pages: Main screens/routes.\n    - Tabs: Navigation tabs or UI sections.\n    - Actions: Common user actions (Save, Edit, etc).\n    - Tool: Available tools (Camera, Map, etc).\n    - DomainData: Domain data terms (Fields, Entities).\n    - UIElement: UI Components (Button, Modal, Input).\n    - VerbAction: Technical verbs (Render, Fetch, Validate).\n3. Generate ONLY a valid JSON object with these keys and string arrays.\n4. DO NOT assume technologies (React/Vue/etc) unless explicitly visible in the code.\n\nOUTPUT FORMAT (JSON):\n{\n  \"Page\": [\"...\"],\n  \"Tab\": [\"...\"],\n  \"Action\": [\"...\"],\n  \"Tool\": [\"...\"],\n  \"DomainData\": [\"...\"],\n  \"UIElement\": [\"...\"],\n  \"VerbAction\": [\"...\"]\n}\n\n",
+      "state": {
+        "selectedTags": {
+          "Page": [
+            "Início"
+          ],
+          "Tab": [],
+          "Action": [],
+          "Tool": [],
+          "DomainData": [],
+          "UIElement": [],
+          "VerbAction": []
+        },
+        "persona": "Senior React Engineer",
+        "targetFile": "",
+        "taskType": "fix",
+        "currentSituation": "prompt de instalação é muito vago e resumido",
+        "idealSituation": "elabore melhor o prompt de instalação, tornando as intruções mais claras, explicando o contexto e objetivo da tarefa, seja generoso com a IA que receberá o prompt sem ter a minima ideia do que se trata o \"gerador de prompts\" / instrua o usuario a anexar o index.html junto ao prompt caso necessario (isso pode ser util,  a depender do modelo que vai processar)",
+        "filePaths": "prompt de instalação atual : ACT AS: Development Tools Expert\nTASK: Analyze my project and create a configuration JSON file for the \"Prompt Generator\".\n\nINSTRUCTIONS:\n1. Analyze my project's folder structure and files.\n2. Identify the following elements:\n    - Pages: Main screens/routes.\n    - Tabs: Navigation tabs or UI sections.\n    - Actions: Common user actions (Save, Edit, etc).\n    - Tool: Available tools (Camera, Map, etc).\n    - DomainData: Domain data terms (Fields, Entities).\n    - UIElement: UI Components (Button, Modal, Input).\n    - VerbAction: Technical verbs (Render, Fetch, Validate).\n3. Generate ONLY a valid JSON object with these keys and string arrays.\n4. DO NOT assume technologies (React/Vue/etc) unless explicitly visible in the code.\n\nOUTPUT FORMAT (JSON):\n{\n  \"Page\": [\"...\"],\n  \"Tab\": [\"...\"],\n  \"Action\": [\"...\"],\n  \"Tool\": [\"...\"],\n  \"DomainData\": [\"...\"],\n  \"UIElement\": [\"...\"],\n  \"VerbAction\": [\"...\"]\n}\n",
+        "creativity": "50",
+        "detail": "50",
+        "robustness": "50"
+      }
+    },
+    {
+      "id": 1764454516958,
+      "timestamp": "29/11/2025, 19:15:16",
+      "theme": "TECHCONTEXT",
+      "content": "ATUE COMO: UI/UX Designer\nTAREFA: FEATURE\n\nPARÂMETROS:\n- Criatividade: 50% vs Precisão: 50%\n- Conciso: 50% vs Detalhado: 50%\n- Rápido (Quick Fix): 50% vs Robusto (Best Practice): 50%\n\nCONTEXTO:\n- Page: Generator\n- Tab: TechContext, Task\n- Action: Paste\n- Tool: Clipboard\n- DomainData: TargetFile\n\nSITUAÇÃO ATUAL:\nao colar uma imagem diretamente do clipboard (screenshot mais recente) a imagem está sendo convertida em JSON \n\nSITUAÇÃO IDEAL / SOLUÇÃO:\ngostaria de aprofundar a pesquisa para solucionar e implementar o modelo correto onde o ENDEREÇO de uma imagem colada ou de um arquivo colado é exibido na caixa de texto.\ntambem gostaria de implementar um botao para \"adicionar\" o conteudo desta caixa no ponto onde estiver o cursor de digitação (adicione este botão em todas as caixas de texto)\n-tambem gostaria que as palavras selecionadas no \"Glossario\" sejam automaticamente incluidas numa sessão \"glossario\" de todos os prompts gerados",
+      "state": {
+        "selectedTags": {
+          "Page": [
+            "Generator"
+          ],
+          "Tab": [
+            "TechContext",
+            "Task"
+          ],
+          "Action": [
+            "Paste"
+          ],
+          "Tool": [
+            "Clipboard"
+          ],
+          "DomainData": [
+            "TargetFile"
+          ],
+          "UIElement": [],
+          "VerbAction": []
+        },
+        "persona": "UI/UX Designer",
+        "targetFile": "",
+        "taskType": "feature",
+        "currentSituation": "ao colar uma imagem diretamente do clipboard (screenshot mais recente) a imagem está sendo convertida em JSON ",
+        "idealSituation": "gostaria de aprofundar a pesquisa para solucionar e implementar o modelo correto onde o ENDEREÇO de uma imagem colada ou de um arquivo colado é exibido na caixa de texto.\ntambem gostaria de implementar um botao para \"adicionar\" o conteudo desta caixa no ponto onde estiver o cursor de digitação (adicione este botão em todas as caixas de texto)",
+        "filePaths": "",
+        "creativity": "50",
+        "detail": "50",
+        "robustness": "50"
+      }
+    },
+    {
+      "id": 1764449717036,
+      "timestamp": "29/11/2025, 17:55:17",
+      "theme": "backupJSON",
+      "content": "ACT AS: UI/UX Designer\nTASK: FEATURE\n\nPARAMETERS:\n- Creativity: 79% vs Precision: 21%\n- Concise: 6% vs Detailed: 94%\n- Quick Fix: 24% vs Robust (Best Practice): 76%\n\nCONTEXT:\n- Page: Registros\n- Action: BackupFazer, Criar\n- Tool: JSON, Botão\n- UIElement: Modal\n\nCURRENT SITUATION:\nmodal \"detalhes do registro\" nao tem botao para exportar JSON\n\nIDEAL SITUATION / SOLUTION:\ncriar botao e renomear o JSON gerado com o nome popular do registro\n",
+      "state": {
+        "selectedTags": {
+          "Page": [
+            "Registros"
+          ],
+          "Tab": [],
+          "Action": [
+            "BackupFazer",
+            "Criar"
+          ],
+          "Tool": [
+            "JSON",
+            "Botão"
+          ],
+          "DomainData": [],
+          "UIElement": [
+            "Modal"
+          ],
+          "VerbAction": []
+        },
+        "persona": "UI/UX Designer",
+        "targetFile": "",
+        "taskType": "feature",
+        "currentSituation": "modal \"detalhes do registro\" nao tem botao para exportar JSON",
+        "idealSituation": "criar botao e renomear o JSON gerado com o nome popular do registro",
+        "filePaths": "",
+        "creativity": "79",
+        "detail": "6",
+        "robustness": "24"
+      }
+    },
+    {
+      "id": 1764447565610,
+      "timestamp": "29/11/2025, 17:19:25",
+      "theme": "gaugeVisual",
+      "content": "ATUE COMO: UI/UX Designer\nTAREFA: FEATURE\n\nPARÂMETROS:\n- Criatividade: 100% vs Precisão: 0%\n- Conciso: 30% vs Detalhado: 70%\n- Rápido (Quick Fix): 70% vs Robusto (Best Practice): 30%\n\nCONTEXTO:\n- Page: Registros\n- Tab: Painel\n- Action: Criar\n- Tool: gaugeVisual\n- VerbAction: Exibir\n\nSITUAÇÃO ATUAL:\nusuário cria muitos registros mas não é \"recompensado visualmente\" ao entrar na pagina de registros, ela é só uma lista\n\nSITUAÇÃO IDEAL / SOLUÇÃO:\npequeno gauge exibindo algumas metricas de forma visual, resumida, que engage o usuario para coletar mais\n\nANEXOS / CONTEXTO:\n\"C:\\Users\\diogo\\OneDrive\\Imagens\\Capturas de tela\\Captura de tela 2025-11-29 171101.png\"\n",
+      "state": {
+        "selectedTags": {
+          "Page": [
+            "Registros"
+          ],
+          "Tab": [
+            "Painel"
+          ],
+          "Action": [
+            "Criar"
+          ],
+          "Tool": [
+            "gaugeVisual"
+          ],
+          "DomainData": [],
+          "UIElement": [],
+          "VerbAction": [
+            "Exibir"
+          ]
+        },
+        "persona": "UI/UX Designer",
+        "targetFile": "",
+        "taskType": "feature",
+        "currentSituation": "usuário cria muitos registros mas não é \"recompensado visualmente\" ao entrar na pagina de registros, ela é só uma lista",
+        "idealSituation": "pequeno gauge exibindo algumas metricas de forma visual, resumida, que engage o usuario para coletar mais",
+        "filePaths": "\"C:\\Users\\diogo\\OneDrive\\Imagens\\Capturas de tela\\Captura de tela 2025-11-29 171101.png\"",
+        "creativity": "100",
+        "detail": "30",
+        "robustness": "70"
+      }
+    }
+  ],
+  "state": {
+    "selectedTags": {
+      "Page": [],
+      "Tab": [],
+      "Action": [],
+      "Tool": [],
+      "DomainData": [],
+      "UIElement": [],
+      "VerbAction": []
+    },
+    "persona": "Senior React Engineer",
+    "targetFile": "file:///C:/LEGACY/genPrompt/index.html",
+    "taskType": "fix",
+    "currentSituation": "file:///C:/LEGACY/genPrompt/index.html\nfile:///C:/LEGACY/genPrompt/index.html\n",
+    "idealSituation": "https://pivotlabel.uksouth.cloudapp.azure.com:8743/projects/4947/data?tab=4585&task=241750\n\n\nhttps://pivotlabel.uksouth.cloudapp.azure.com:8743/projects/4947/data?tab=4585&task=241750\n\nfile:///C:/LEGACY/genPrompt/index.html\n\nhttps://pivotlabel.uksouth.cloudapp.azure.com:8743/projects/4947/data?tab=4585&task=241750\n",
+    "creativity": "50",
+    "detail": "50",
+    "robustness": "50"
+  },
+  "termShortcuts": {
+    "/bf": {
+      "type": "Page",
+      "value": "BuscaFlora"
+    },
+    "/sp": {
+      "type": "DomainData",
+      "value": "Espécie"
+    },
+    "/fam": {
+      "type": "DomainData",
+      "value": "Família"
+    },
+    "/inv": {
+      "type": "DomainData",
+      "value": "Inventário"
+    },
+    "/reg": {
+      "type": "DomainData",
+      "value": "Registro"
+    },
+    "/prj": {
+      "type": "DomainData",
+      "value": "Projeto"
+    },
+    "/gen": {
+      "type": "DomainData",
+      "value": "Gênero"
+    },
+    "/d": {
+      "type": "Page",
+      "value": "Data"
+    },
+    "/dted": {
+      "type": "Page",
+      "value": "DataEditor"
+    },
+    "/js": {
+      "type": "Tool",
+      "value": "JSONParser"
+    }
+  },
+  "promptShortcuts": {
+    "/tec": 1764454516958,
+    "/>install": 1764464496003
+  }
+}
