@@ -1,11 +1,12 @@
-# General Prompt
+<h1><img src="https://github.com/DJHanDoom/GeneralPrompt/blob/main/assets/icon.png" width=55px> # General Prompt</h1>
 > 🖥️ Desktop **Live Demo:** https://djhandoom.github.io/GeneralPrompt/
+<img src="https://github.com/DJHanDoom/GeneralPrompt/blob/main/bgBIG.png" width=800px>
 > 
 **General Prompt** is a powerful, local-first tool designed to generate structured, high-quality prompts for AI agents. It provides a specialized interface for configuring agent personas, context, and task details to ensure precise and robust AI outputs.
 
 This repository contains two main versions of the tool:
-- **Desktop Version**: A full-featured IDE-like experience.
-- **Mobile Version**: A responsive, touch-optimized interface for on-the-go prompt generation.
+- **Desktop Version**: A full-featured IDE-like experience. > https://github.com/DJHanDoom/GeneralPrompt/blob/main/General%20Prompt%20DESKTOPv4.1.html
+- **Mobile Version**: A responsive, touch-optimized interface for on-the-go prompt generation. > https://github.com/DJHanDoom/GeneralPrompt/blob/main/genPrompMOBILEv4.9.html
 
 ## 🖥️ Desktop Version
 **File:** `General Prompt DESKTOPv4.1.html`
