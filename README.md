@@ -1,5 +1,5 @@
 # General Prompt
-> **Live Demo:** https://djhandoom.github.io/GeneralPrompt/
+> 🖥️ Desktop **Live Demo:** https://djhandoom.github.io/GeneralPrompt/
 > 
 **General Prompt** is a powerful, local-first tool designed to generate structured, high-quality prompts for AI agents. It provides a specialized interface for configuring agent personas, context, and task details to ensure precise and robust AI outputs.
 
